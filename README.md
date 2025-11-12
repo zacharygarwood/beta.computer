@@ -1,2 +1,2 @@
-# beta.computer
-Staging environment for the internet
+# prod.computer
+Running the internet
