@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Internet Staging Environment</title>
     <style>
         body {
@@ -8,28 +10,36 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            font-size: 18px;
+        }
+        main {
+            flex: 1;
+            display: flex;
             align-items: center;
             justify-content: center;
-            text-align: center;
+            padding: 1em;
         }
-        iframe {
-            display: block;
-            border: 0;
+        img {
+            max-width: 100%;
+            height: auto;
         }
         footer {
-            position: fixed;
-            bottom: 1em;
-            left: 0;
-            right: 0;
             text-align: center;
+            padding: 1em;
             font-size: 0.8em;
         }
     </style>
 </head>
 <body>
-    <img src="assets/beta-hamster.gif" alt="Beta Hamster">
-    <p>hamster.exe has stopped working</p>
-    <iframe src="https://ghbtns.com/github-btn.html?user=zacharygarwood&repo=beta.computer&type=star&count=true" frameborder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>
-    <footer>want this domain? <a href="mailto:garwoodzachary@gmail.com">contact me</a></footer>
+    <main>
+        <center>
+            <img src="assets/beta-hamster.gif" alt="Beta Hamster">
+            <p>hamster.exe has stopped working</p>
+            <iframe src="https://ghbtns.com/github-btn.html?user=zacharygarwood&repo=beta.computer&type=star&count=true" frameborder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>
+        </center>
+    </main>
+    <footer>
+        want this domain? <a href="mailto:garwoodzachary@gmail.com">contact me</a>
+    </footer>
 </body>
 </html>
